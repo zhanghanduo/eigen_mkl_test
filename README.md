@@ -2,7 +2,7 @@
 
 **Important Tips**:
 
-1. Add "/opt/intel/bin/compilervars.sh intel64" to ~/.bashrc
+1. Add "source /opt/intel/bin/compilervars.sh intel64" to ~/.bashrc
 
 2. Follow the [Intel MKL link line Advisor]  (https://software.intel.com/en-us/articles/intel-mkl-link-line-advisor/) page.
 So in our case, we choose "dynamic" linking, GNU C/C++, Intel64, "32-bit integer interface layer" which generates:  
